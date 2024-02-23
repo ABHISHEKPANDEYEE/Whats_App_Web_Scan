@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="5dp">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/pattern_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="    Pattern Lock        "
+        android:textColor="#5c6bc0"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+
+        android:thumb="@drawable/sw_thumb"
+        app:track="@drawable/sw_track"
+
+
+        />
+
+
+</LinearLayout>

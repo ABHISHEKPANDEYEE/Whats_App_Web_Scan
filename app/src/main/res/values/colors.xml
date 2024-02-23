@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f8fdff</color>
+    <color name="colorPrimaryDark">#5c6bc0</color>
+    <color name="colorAccent">#000000</color>
+    <color name="progressbar">#9499b7</color>
+    <color name="background">#5B428B</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="patterncolor">#000000</color>
+    <color name="pattern_button">#5c6bc0</color>
+
+
+    <color name="sticky_background">#25AC66</color>
+    <color name="stickycolor">#A8143E</color>
+
+</resources>

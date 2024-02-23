@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".splash">
+
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/webwapp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="24dp"
+
+
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.888"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading.json"
+            app:lottie_loop="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="163dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="184dp"
+        android:text="@string/abp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

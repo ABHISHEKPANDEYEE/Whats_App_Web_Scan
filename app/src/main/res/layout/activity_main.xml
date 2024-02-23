@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/webwapp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="webwhatsapp.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/trash"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="180dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lock"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="trash.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Gallery"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="160dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/webwapp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="Gallery.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lock"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="100dp"
+        android:onClick="lockkafunction"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Gallery"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lock.json"
+        app:lottie_loop="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
